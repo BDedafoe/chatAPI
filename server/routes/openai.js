@@ -37,9 +37,9 @@ router.post("/text", async (req, res) => {
       { text: response.data.choices[0].message.content },
       {
         headers: {
-          "Project-ID": process.env.PROJECT_ID,
-          "User-Name": process.env.BOT_USER_NAME,
-          "User-Secret": process.env.BOT_USER_SECRET,
+          "Project-ID": "47c20117-f0a5-4c7f-b01a-9a20df1eeaab",
+          "User-Name": "Marv",
+          "User-Secret": "1234"
         },
       }
     );
@@ -72,9 +72,9 @@ router.post("/code", async (req, res) => {
       { text: response.data.choices[0].message.content },
       {
         headers: {
-          "Project-ID": process.env.PROJECT_ID,
-          "User-Name": process.env.BOT_USER_NAME,
-          "User-Secret": process.env.BOT_USER_SECRET,
+          "Project-ID": "47c20117-f0a5-4c7f-b01a-9a20df1eeaab",
+          "User-Name": "Marv",
+          "User-Secret": "1234"
         },
       }
     );
