@@ -1,19 +1,17 @@
 import { useState } from 'react';
-import { BrowswerRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Chat from "@/components/chat";
-import Login from "@/components/login";
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Chat from '@/chat';
+
 
 
 function App() {
   return (
       <div className='app'>
-        <BrowswerRouter>
+        <BrowserRouter>
           <Routes>
             <Route path='/chat' element={<Chat />} />
-
-
           </Routes>
-        </BrowswerRouter>
+        </BrowserRouter>
       </div>
   )
 }
