@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import {
   useMultiChatLogic,
@@ -10,12 +11,12 @@ import Ai from "@/customMessageForms/Ai";
 import AiCode from "@/customMessageForms/AiCode";
 import AiAssist from "@/customMessageForms/AiAssist";
 
-const Chat = () => {
-  const chatProps = useMultiChatLogic(
-    import.meta.env.VITE_PROJECT_ID,
-    "test-user",
-    "1234"
-  );
+const Chat = ({ user, secret }) => {
+    const chatProps = useMultiChatLogic(
+      import.meta.env.VITE_PROJECT_ID,
+      user,
+      secret
+    );
 
   return (
     <div style={{ flexBasis: "100%" }}>
