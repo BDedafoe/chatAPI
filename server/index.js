@@ -4,8 +4,11 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
+import { Configuration, OpenAIApi } from "openai";
+import openAiRoutes from "./routes/openai.js";
+import authRoutes from "./routes/auth.js";
 
-/* Config */
+/* CONFIG */
 dotenv.config();
 const app = express;
 app.use(express.json());
@@ -19,15 +22,13 @@ app.use(cors());
 /* OPEN AI CONFIGURATION */
 const configuration = new Configuration({
     apiKey: process.env.OPEN_API_KEY,
-  });
-  export const openai = new OpenAIApi(configuration);
+});
+export const openai = new OpenAIApi(configuration);
   
-  /* ROUTES */
-  app.use("/openai", openAiRoutes);
-  app.use("/auth", authRoutes);
+/* ROUTES */
+app.use("/openai", openAiRoutes);
+app.use("/auth", authRoutes);
   
-  /* SERVER SETUP */
-  const PORT = process.env.PORT || 1337;
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-  });
+/* SERVER SETUP */
+const PORT = process.env.PORT || 1337;
+app.listen(PORT, () => { console.log(`Server running on http://localhost:${PORT}`)});
