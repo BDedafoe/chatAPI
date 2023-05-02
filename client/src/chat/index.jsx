@@ -5,11 +5,11 @@ import {
   MultiChatSocket,
   MultiChatWindow,
 } from "react-chat-engine-advanced";
-import CustomHeader from "@/customHeader";
-import StandardMessageForm from "@/customMessageForms/StandardMessageForm";
-import Ai from "@/customMessageForms/Ai";
-import AiCode from "@/customMessageForms/AiCode";
-import AiAssist from "@/customMessageForms/AiAssist";
+import CustomHeader from "../customHeader/index";
+import StandardMessageForm from "../customMessageForms/StandardMessageForm";
+import Ai from "../customMessageForms/Ai";
+import AiCode from "../customMessageForms/AiCode";
+import AiAssist from "../customMessageForms/AiAssist";
 
 const Chat = ({ user, secret }) => {
     const chatProps = useMultiChatLogic(

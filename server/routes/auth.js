@@ -11,9 +11,9 @@ router.post("/login", async (req, res) => {
       "https://api.chatengine.io/users/me",
       {
         headers: {
-          "Project-ID": "47c20117-f0a5-4c7f-b01a-9a20df1eeaab",
-          "User-Name": username,
-          "User-Secret": password,
+            "Project-ID": process.env.PROJECT_ID,
+            "User-Name": username,
+            "User-Secret": password,
         },
       }
     );
@@ -36,7 +36,7 @@ router.post("/signup", async (req, res) => {
         secret: password,
       },
       {
-        headers: { "Private-Key": "32aced22-7083-44fa-bd7e-42c0a6e56130" },
+        headers: { "Private-Key": process.env.PRIVATE_KEY },
       }
     );
 

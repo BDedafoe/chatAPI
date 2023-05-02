@@ -21,7 +21,7 @@ app.use(cors());
 
 /* OPEN AI CONFIGURATION */
 const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: process.env.OPEN_API_KEY,
 });
 export const openai = new OpenAIApi(configuration);
   
@@ -30,5 +30,5 @@ app.use("/openai", openAiRoutes);
 app.use("/auth", authRoutes);
   
 /* SERVER SETUP */
-const PORT = process.env.PORT || 1337;
+const PORT = process.env.PORT || 9000;
 app.listen(PORT, () => { console.log(`Server running on http://localhost:${PORT}`)});

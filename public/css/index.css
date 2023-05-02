@@ -16,7 +16,7 @@ body,
 }
 
 .servers {
-  background-color: #0f2936;
+  background-color: #65c7f7;
 }
 
 .flexbetween {
@@ -32,7 +32,7 @@ body,
 }
 
 .login-page {
-  background-color: #0f2936;
+  background-color: #65c7f7;
   height: 100%;
   width: 100%;
   display: flex;
@@ -41,7 +41,7 @@ body,
 }
 
 .login-container {
-  color: #fff8e6;
+  color: #fae5e5;
 }
 
 .login-actions {
@@ -58,24 +58,24 @@ body,
   border-radius: 5px;
   padding: 0 10px;
   margin: 10px 0;
-  background-color: #091d2b;
-  color: #fff8e6;
+  background-color: #2f2e2d;
+  color: #fae5e5;
 }
 
 .register-change {
   text-decoration: underline;
-  color: #219ebc;
+  color: #f89155;
 }
 
 .register-change:hover {
   text-decoration: underline;
-  color: #fff1cd;
+  color: #b6e5ff;
   cursor: pointer;
 }
 
 /* Chat Styling */
 .ce-chat-engine {
-  color: #fff8e6 !important;
+  color: #fae5e5 !important;
   font-family: "Rubik" !important;
 }
 
@@ -89,7 +89,7 @@ body,
 
 .horizontal-rule {
   margin: 15px 0px !important;
-  border: 0.5px solid #35596c !important;
+  border: 0.5px solid #85caef !important;
 }
 
 .list-category {
@@ -98,18 +98,18 @@ body,
   gap: 15px;
   font-size: 16px !important;
   font-weight: 300 !important;
-  color: #858585 !important;
+  color: #ff4e4e !important;
   padding: 0px 25px !important;
 }
 
 .category-icon {
-  color: #858585 !important;
+  color: #ff4e4e !important;
   width: 25px !important;
   height: 25px !important;
 }
 
 .icon {
-  color: #fff8e6 !important;
+  color: #fae5e5 !important;
   width: 25px !important;
   height: 25px !important;
 }
@@ -132,7 +132,7 @@ body,
   position: absolute;
   top: 0;
   right: 0;
-  color: #0f2936 !important;
+  color: #65c7f7 !important;
   width: 15px !important;
   height: 15px !important;
   cursor: pointer;
@@ -151,7 +151,7 @@ body,
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  border: 1px solid #35596c !important;
+  border: 1px solid #85caef !important;
   border-radius: 5px !important;
   padding: 5px 15px 5px 20px !important;
   background: none;
@@ -176,7 +176,7 @@ body,
   position: absolute;
   top: 0;
   left: 0;
-  color: #fff8e6 !important;
+  color: #fae5e5 !important;
   z-index: 2 !important;
   width: 100% !important;
 }
@@ -187,24 +187,24 @@ body,
   position: absolute;
   top: 0;
   left: 0;
-  color: #a3a3a3 !important;
+  color: #ff4e4e !important;
   z-index: 1;
 }
 
 .message-form-icon-airplane {
-  color: #219ebc !important;
+  color: #f89155 !important;
   width: 25px !important;
   height: 25px !important;
 }
 
 .message-form-icon-clip:hover,
 .message-form-icon-airplane:hover {
-  color: #00b5e0 !important;
+  color: #00558a !important;
   cursor: pointer;
 }
 
 .message-form-icon-clip {
-  color: #35596c !important;
+  color: #85caef !important;
   width: 21px !important;
   height: 21px !important;
 }
@@ -218,7 +218,7 @@ body,
 
 .vertical-line {
   height: 18px;
-  border: 0.5px solid #35596c !important;
+  border: 0.5px solid #85caef !important;
   display: inline-block;
 }
 
@@ -232,13 +232,13 @@ body,
 }
 
 .ce-chat-list-column {
-  background-color: #091d2b !important;
+  background-color: #2f2e2d !important;
   overflow-y: hidden !important;
-  border-right: 1px solid #35596c !important;
+  border-right: 1px solid #85caef !important;
 }
 
 .ce-chat-form {
-  background-color: #091d2b !important;
+  background-color: #2f2e2d !important;
 }
 
 .ce-chat-form-title {
@@ -251,13 +251,13 @@ body,
 .ce-chat-form-button {
   border: none !important;
   border-radius: 33px !important;
-  color: #091d2b !important;
+  color: #2f2e2d !important;
   padding: 4px 15px !important;
   top: 15px !important;
 }
 
 .ce-chat-list {
-  background-color: #091d2b !important;
+  background-color: #2f2e2d !important;
 }
 
 .ce-chat-card {
@@ -272,25 +272,25 @@ body,
 
 .ce-chat-card-subtitle {
   bottom: 16px !important;
-  color: #fff1cd !important;
+  color: #b6e5ff !important;
   font-family: "Rubik" !important;
   font-weight: 300 !important;
 }
 
 .ce-chat-card-time-stamp {
   bottom: 16px !important;
-  color: #a3a3a3 !important;
+  color: #ff4e4e !important;
   font-family: "Rubik" !important;
   right: 16px !important;
 }
 
 .ce-active-chat-card {
-  background-color: #00b5e0 !important;
-  color: #fff1cd !important;
+  background-color: #00558a !important;
+  color: #b6e5ff !important;
 }
 
 .ce-chat-card-unread {
-  background-color: #fb8500 !important;
+  background-color: #f75036 !important;
   right: 16px !important;
 }
 
@@ -305,7 +305,7 @@ body,
 }
 
 .ce-chat-feed {
-  background-color: #051926 !important;
+  background-color: #141314 !important;
 }
 
 .chat-header {
@@ -313,7 +313,7 @@ body,
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px !important;
-  border-bottom: 1px solid #35596c !important;
+  border-bottom: 1px solid #85caef !important;
 }
 
 .ce-chat-header-title {
@@ -326,14 +326,14 @@ body,
 }
 
 .ce-chat-header {
-  background-color: #051926 !important;
-  color: #fff8e6 !important;
-  border-bottom: 1px solid #35596c !important;
+  background-color: #141314 !important;
+  color: #fae5e5 !important;
+  border-bottom: 1px solid #85caef !important;
   padding: 10px !important;
 }
 
 .ce-avatar-dot {
-  background-color: #219ebc !important;
+  background-color: #f89155 !important;
   margin: 5px 0 !important;
 }
 
@@ -343,7 +343,7 @@ body,
 }
 
 #ce-send-message-button {
-  background-color: #7ac5d7 !important;
+  background-color: #a86d06 !important;
   padding: 3px 10px !important;
   bottom: 5px !important;
 }
@@ -354,21 +354,21 @@ body,
 }
 
 .ce-message-list {
-  background-color: #060f14 !important;
+  background-color: #252525 !important;
   height: calc(100% - 100px - 68px) !important;
-  border-bottom: 1px solid #35596c !important;
+  border-bottom: 1px solid #85caef !important;
 }
 
 .ce-message-list::-webkit-scrollbar-track {
-  background: #060f14;
+  background: #252525;
 }
 
 .ce-message-list::-webkit-scrollbar-thumb {
-  background: #060f14;
+  background: #252525;
 }
 
 .ce-message-list::-webkit-scrollbar-track:hover {
-  background: #060f14;
+  background: #252525;
 }
 
 .ce-message-list-content {
@@ -378,67 +378,67 @@ body,
 
 .ce-message-date-text {
   font-family: "Rubik" !important;
-  color: #a3a3a3 !important;
+  color: #ff4e4e !important;
   font-size: 12px !important;
   margin: 10px 0 !important;
 }
 
 .ce-message-form {
-  background-color: #051926 !important;
-  border: 1px solid #35596c !important;
+  background-color: #141314 !important;
+  border: 1px solid #85caef !important;
   border-radius: 5px !important;
   margin: 20px !important;
   width: calc(100% - 40px) !important;
 }
 
 .ce-message-form-input {
-  background-color: #051926 !important;
-  color: #fff8e6 !important;
+  background-color: #141314 !important;
+  color: #fae5e5 !important;
   font-family: "Rubik" !important;
   border: none !important;
 }
 
 .ce-my-message-body {
   font-family: "Rubik" !important;
-  background-color: #219ebc !important;
-  color: #fff8e6 !important;
+  background-color: #f89155 !important;
+  color: #fae5e5 !important;
   border-radius: 8px !important;
   font-size: 14px !important;
 }
 
 .ce-their-message-body {
   font-family: "Rubik" !important;
-  background-color: #a3a3a3 !important;
-  color: #fff8e6 !important;
+  background-color: #ff4e4e !important;
+  color: #fae5e5 !important;
   border-radius: 8px !important;
   font-size: 14px !important;
 }
 
 .ce-my-message-timestamp {
-  color: #fff8e6 !important;
+  color: #fae5e5 !important;
   font-family: "Rubik" !important;
 }
 
 .ce-their-message-timestamp {
-  color: #fff8e6 !important;
+  color: #fae5e5 !important;
   font-family: "Rubik" !important;
 }
 
 .ce-their-message-sender-username {
   padding-left: 50px !important;
-  color: #fff8e6 !important;
+  color: #fae5e5 !important;
   font-family: "Rubik" !important;
 }
 
 /* Chat Settings */
 .ce-chat-settings-column {
-  background-color: #0f2936;
-  border-left: 1px solid #35596c !important;
+  background-color: #65c7f7;
+  border-left: 1px solid #85caef !important;
   overflow-y: hidden !important;
 }
 
 .ce-chat-settings {
-  background-color: #091d2b !important;
+  background-color: #2f2e2d !important;
 }
 
 .ce-chat-avatars {
@@ -451,22 +451,22 @@ body,
 }
 
 .ce-avatar {
-  background-color: #219ebc !important;
+  background-color: #f89155 !important;
 }
 
 .ce-avatar-status {
-  background-color: #00b5e0 !important;
+  background-color: #00558a !important;
 }
 
 .ce-chat-settings-title {
   font-family: "Rubik" !important;
   padding: 20px 0 0 0 !important;
-  border-top: 1px solid #35596c !important;
+  border-top: 1px solid #85caef !important;
 }
 
 .ce-dropdown {
-  color: #fff8e6 !important;
-  background-color: #091d2b !important;
+  color: #fae5e5 !important;
+  background-color: #2f2e2d !important;
   border-top: none !important;
   font-family: "Rubik" !important;
 }
@@ -477,8 +477,8 @@ body,
 
 .ce-dropdown-label {
   padding: 30px 25px 10px 25px !important;
-  color: #858585 !important;
-  background-color: #091d2b !important;
+  color: #ff4e4e !important;
+  background-color: #2f2e2d !important;
   font-family: "Rubik" !important;
   font-weight: 300 !important;
   font-size: 14px !important;
@@ -491,26 +491,26 @@ body,
 
 .ce-member-delete-button {
   border-radius: 5px !important;
-  background-color: #060f14 !important;
-  color: #35596c !important;
-  border: 1px solid #35596c !important;
+  background-color: #252525 !important;
+  color: #85caef !important;
+  border: 1px solid #85caef !important;
   top: 6px !important;
 }
 
 .ce-autocomplete-input {
   margin: 10px 0 !important;
-  background-color: #060f14 !important;
-  color: #fff8e6 !important;
+  background-color: #252525 !important;
+  color: #fae5e5 !important;
   font-family: "Rubik" !important;
-  border: 1px solid #35596c !important;
+  border: 1px solid #85caef !important;
   border-radius: 5px !important;
 }
 
 .ce-danger-button {
   border-radius: 5px !important;
-  background-color: #060f14 !important;
-  color: #35596c !important;
-  border: 1px solid #35596c !important;
+  background-color: #252525 !important;
+  color: #85caef !important;
+  border: 1px solid #85caef !important;
 }
 
 #ce-settings-photos-dropdown .ce-dropdown-children {
@@ -523,13 +523,13 @@ body,
 }
 
 ::-webkit-scrollbar-track {
-  background: #051926;
+  background: #141314;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #051926;
+  background: #141314;
 }
 
 ::-webkit-scrollbar-track:hover {
-  background: #051926;
+  background: #141314;
 }
