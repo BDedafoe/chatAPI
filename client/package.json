@@ -2,11 +2,12 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "proxy": "https://chat-ttn4.onrender.com/",
   "homepage": "https://vite-chat.netlify.app",
   "scripts": {
     "dev": "vite",
-    "build": "cross-env DISABLE_ESLINT_PLUGIN=true vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "eslintConfig": {
