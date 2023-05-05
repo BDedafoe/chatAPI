@@ -10,6 +10,16 @@ body,
   font-family: "Rubik", sans-serif;
 }
 
+button {
+  padding: 5px 10px;
+  border-radius: 5px 5px 5px 5px;
+  background: #f89155;
+}
+
+button:hover {
+  background: #f75036;
+}
+
 .layout {
   width: 100%;
   display: flex;
@@ -63,13 +73,15 @@ body,
 }
 
 .register-change {
-  text-decoration: underline;
-  color: #f89155;
+  text-decoration: none;
+  padding: 3px;
+  color: #ff4e4e;
+  font-weight: 400;
 }
 
 .register-change:hover {
-  text-decoration: underline;
-  color: #b6e5ff;
+  text-decoration: none;
+  color: #f89155;
   cursor: pointer;
 }
 
