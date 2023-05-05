@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "proxy": "https://chat-ttn4.onrender.com/",
-  "homepage": "https://vite-chat.netlify.app",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
