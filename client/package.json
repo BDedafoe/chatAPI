@@ -10,12 +10,6 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "dependencies": {
     "@heroicons/react": "^2.0.16",
     "@reduxjs/toolkit": "^1.9.2",
