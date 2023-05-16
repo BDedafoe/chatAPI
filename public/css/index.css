@@ -110,12 +110,12 @@ button:hover {
   gap: 15px;
   font-size: 16px !important;
   font-weight: 300 !important;
-  color: #ff4e4e !important;
+  color: #ff4ea4 !important;
   padding: 0px 25px !important;
 }
 
 .category-icon {
-  color: #ff4e4e !important;
+  color: #ff4ea4 !important;
   width: 25px !important;
   height: 25px !important;
 }
@@ -199,7 +199,7 @@ button:hover {
   position: absolute;
   top: 0;
   left: 0;
-  color: #ff4e4e !important;
+  color: #ff4ea4 !important;
   z-index: 1;
 }
 
@@ -211,7 +211,7 @@ button:hover {
 
 .message-form-icon-clip:hover,
 .message-form-icon-airplane:hover {
-  color: #00558a !important;
+  color: #1a8bd1 !important;
   cursor: pointer;
 }
 
@@ -291,13 +291,13 @@ button:hover {
 
 .ce-chat-card-time-stamp {
   bottom: 16px !important;
-  color: #ff4e4e !important;
+  color: #ff4ea4 !important;
   font-family: "Rubik" !important;
   right: 16px !important;
 }
 
 .ce-active-chat-card {
-  background-color: #00558a !important;
+  background-color: #1a8bd1 !important;
   color: #b6e5ff !important;
 }
 
@@ -390,7 +390,7 @@ button:hover {
 
 .ce-message-date-text {
   font-family: "Rubik" !important;
-  color: #ff4e4e !important;
+  color: #ff4ea4 !important;
   font-size: 12px !important;
   margin: 10px 0 !important;
 }
@@ -420,7 +420,7 @@ button:hover {
 
 .ce-their-message-body {
   font-family: "Rubik" !important;
-  background-color: #ff4e4e !important;
+  background-color: #ff4ea4 !important;
   color: #fae5e5 !important;
   border-radius: 8px !important;
   font-size: 14px !important;
@@ -467,7 +467,7 @@ button:hover {
 }
 
 .ce-avatar-status {
-  background-color: #00558a !important;
+  background-color: #1a8bd1 !important;
 }
 
 .ce-chat-settings-title {
@@ -489,7 +489,7 @@ button:hover {
 
 .ce-dropdown-label {
   padding: 30px 25px 10px 25px !important;
-  color: #ff4e4e !important;
+  color: #ff4ea4 !important;
   background-color: #2f2e2d !important;
   font-family: "Rubik" !important;
   font-weight: 300 !important;
