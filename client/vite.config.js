@@ -6,7 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   server: {
-    origin: 'http://127.0.0.1:1337',
+    origin: 'https://chat-ttn4.onrender.com/',
   },
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
